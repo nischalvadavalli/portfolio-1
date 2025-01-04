@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Nischal Vadavalli</h1>
+
+          <p class="title">Aspiring Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:nischalvadavalli65@gmail.com" class="contact-link">nischalvadavalli65@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+916303823484" class="contact-link">+91 63038 23484</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">May 6, 2009</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Vijayawada, Andhra Pradesh, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/nischal-vadavalli-3aa82821a/?trk=opento_sprofile_topcard" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/BakedPug" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/nischalvadavalli?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Failures</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Why Me</button>
+          </li>
+        </ul>
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am currently in 10th grade with a deep interest in scriptwriting, filmmaking, video editing, designing, robotics, and biology.
+            My academic journey through the IGCSE curriculum has been an incredible experience that has helped shape me in many ways.
+            It has encouraged me to think creatively, analyze problems from different angles, and approach challenges with a solution-oriented mindset.
+            Along the way, I've also gained valuable skills in communication, both publicly and socially.
+          </p>
+
+          <p>
+            These experiences have not only fueled my passion for the creative and technological fields but also opened doors for me to explore new opportunities.
+            As I continue to learn and grow, I look forward to building on these skills and diving deeper into the areas that inspire me the most.         
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="cut"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Video Editing</h4>
+
+                <p class="service-item-text">
+                  Transforming moments into stories, one frame at a time.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="camera"></ion-icon>  
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cinematography</h4>
+
+                <p class="service-item-text">
+                  Capturing stories one frame at a time.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="bookmarks"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">English Literature</h4>
+                <p class="service-item-text">
+                  Weaving stories and exploring timeless narratives
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="mic"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Public Speaking</h4>
+                <p class="service-item-text">
+                  Dedicated to inspiring and empowering others with every word.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="color-palette"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphical Designing</h4>
+                <p class="service-item-text">
+                  Transforming ideas into visually captivating and impactful designs.
+                </p>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CBSE (Grade 1-3)</h4>
+
+              <span>2014 — 2017</span>
+
+              <p class="timeline-text">
+                Strong foundational education with a focus on core subjects.
+                Structured approach to learning, emphasizing basic skills and knowledge.                
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">IB (Grade 4)</h4>
+
+              <span>2018</span>
+
+              <p class="timeline-text">
+                Transitioned to an inquiry-based learning model.
+                Encouraged global perspectives and critical thinking.
+                Focus on holistic development, fostering creativity and curiosity.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">IGCSE (Grade 5-10)</h4>
+              <span>2019 — 2025</span>
+              <p class="timeline-text">
+                Deep focus on analytical thinking, problem-solving, and subject mastery.
+                Exposure to diverse learning styles and expectations.
+                Emphasis on flexibility and adaptability in academic pursuits.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+
+        <br>
+        <br>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Creative Thinking</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Analytical Skills</h5>
+                <data value="86">86%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 86%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Problem - Solving Skills</h5>
+                <data value="94">94%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 94%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Adaptability</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Public and Social Exposure</h5>
+                <data value="67">67%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 67%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active">
+              <a href="https://youtu.be/aZ85M6rUa3s?si=mguukMKdR5ZCeWlV">
+                <figure class="project-img">
+                  <a href="https://youtu.be/aZ85M6rUa3s?si=mguukMKdR5ZCeWlV">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Ted.png" alt="TedX" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tedx Speaker</h3>
+
+                <p class="project-description"> Whether you're a creative mind or just a curious potato, the world offers a ton just for YOU.
+                  This is a story of a budding writer trying to unfold his world...
+                  Mind joining?
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mun img.png" alt="MUN" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">3 Years of Munning experience</h3>
+
+                <p class="project-description">Three years of MUNning and still thriving, debating, and making an impact!</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/metamorphosis.jpg" alt="Metamorphosis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Metamorphosis Business meet</h3>
+
+                <p class="project-description">Best business pitch award</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Ted.png" alt="TedX" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">TedX Theater Play script witer</h3>
+
+                <p class="project-description">Inspiring ideas through compelling theater</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" >
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/student.png" alt="Student Council" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Student Council</h3>
+
+                <p class="project-description">Consicuitve wins as the elected member of the school prefect council</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/film.png" alt="film maker" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aspiring Film Maker</h3>
+
+                <p class="project-description">Driven by stories, aiming for the big screen.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="Science" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Science enthusiast</h3>
+
+                <p class="project-description"></p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #failures
+      -->
+
+      <article class="failures" data-page="failures">
+
+        <header>
+          <h2 class="h2 article-title">Failures</h2>
+        </header>
+
+        <section class="failures-posts">
+
+          <ul class="failures-posts-list">
+
+            <li class="failures-post-item">
+              <a href="#">
+
+                <figure class="failures-banner-box">
+                  <img src="./assets/images/images.png" alt="Indian Writing Project" loading="lazy">
+                </figure>
+
+                <div class="failures">
+                  <h3 class="h3 failures-item-title">Indian Writing Project </h3>
+
+                  <p class="failures-text">
+                    Missing the mark in the Indian Writing Project reminded me that stories unfold with practice, and every failed draft brings me closer to my masterpiece.
+                  </p>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="failures-post-item">
+              <a href="#">
+
+                <figure class="failures-banner-box">
+                  <img src="./assets/images/CCIR.png" alt="CCIR Essay Writing Program" loading="lazy">
+                </figure>
+
+                <div class="failures">
+
+                  <h3 class="h3 failures-item-title">CCIR Essay Writing Program</h3>
+
+                  <p class="failures-text">
+                    My CCIR essay taught me that thoughtful reflection takes time, and though I fell short, I gained invaluable insights to refine my voice.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="failures-post-item">
+              <a href="#">
+
+                <figure class="failures-banner-box">
+                  <img src="./assets/images/TKS.jpg" alt="TKS Internship Program" loading="lazy">
+                </figure>
+
+                <div class="failures">
+                  <h3 class="h3 failures-item-title">TKS Internship Program</h3>
+
+                  <p class="failures-text">
+                    Not making it to TKS was a lesson in resilience, proving that every 'no' shapes the path to a better 'yes' ahead.  
+                  </p>
+
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #WHYME
+      -->
+      <article class="why me" data-page="why me">
+
+        <header>
+          <h2 class="h2 article-title">Why Me?</h2>
+        </header>
+
+        <section class="about-text">
+          <p> What makes me truly stand out is an insatiable hunger to explore, create, and grow.
+             As a 10th-grade student, I don't just embrace challenges—I seek them out, knowing they are the forge where passion and purpose collide. 
+             My curiosity knows no bounds, pulling me toward the art of storytelling, the precision of robotics, and the wonder of biology. 
+             Every step of this journey has sharpened my mind and broadened my horizons, teaching me to approach problems with innovation and heart.
+          </p>
+
+          <p> Failure hasn't been a setback; it's been a compass.
+             Falling short in certain moments wasn't the end of the story—it was the spark for a new chapter. 
+             Those experiences taught me resilience, the humility to learn, and the courage to try again.
+              They showed me how growth often comes disguised as struggle, guiding me closer to my goals with every misstep.
+          </p>
+
+          <p>What defines me isn't just what I've achieved but the way I meet life head-on. 
+            I don't see limits—I see potential waiting to be uncovered.
+             Whether I'm crafting a script, solving a problem, or building something new, I pour my soul into it. 
+             I'm not just here to contribute; I'm here to reimagine, inspire, and leave a mark.
+          </p>
+        </section>
+      </article>
+    </div>
+  </main>
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
