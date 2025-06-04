@@ -467,7 +467,6 @@ main {
 .navbar-link:hover,
 .navbar-link:focus { color: var(--light-gray-70); }
 
-.navbar-link.active { color: var(--orange-yellow-crayola); }
 
 
 
@@ -477,6 +476,17 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
+.abouttext{
+  color: white;
+  font-size:small;
+  margin-top: 5;
+  margin-bottom: 5;
+}
+
+.abouth3{
+  color: white;
+  font-size: x-large;
+}
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
